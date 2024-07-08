@@ -1,0 +1,58 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+a. Multiplexing
+ - HTTP/1.1: Only one request per TCP connection at a time.
+ - HTTP/2: Multiple requests/responses concurrently over a single TCP connection.
+b. Protocol Format
+ - HTTP/1.1: Text-based protocol.
+ - HTTP/2: Binary protocol for more efficient processing and reduced errors.
+c. Header Compression
+ - HTTP/1.1: No compression; headers sent as plain text.
+ - HTTP/2: Uses HPACK compression to reduce header size.
+d. Server Push
+ - HTTP/1.1: Client requests each resource individually.
+ - HTTP/2: Server can push resources to the client proactively.
+e. Stream Prioritization
+ - HTTP/1.1: No built-in prioritization.
+ - HTTP/2: Allows prioritization of streams to optimize resource loading.
+f. Connection Management
+ - HTTP/1.1: Often requires multiple TCP connections for parallel requests.
+ - HTTP/2: Reduces the need for multiple connections through multiplexing.
+g. Security
+ - HTTP/1.1: Can be used with or without encryption.
+- HTTP/2: Typically used with TLS (HTTPS) for secure communications.
+h. Performance Impact
+- HTTP/2 offers faster load times and lower latency due to its advanced features like multiplexing and header compression
+
+
+
+2. Write a blog about objects and its internal representation in Javascript
+
+    A JavaScript object is a collection of named values having state and behavior (properties and method). It is most important data-type which can contain any combination of the primitive data-type(Number, String, Boolean, null, undefined and symbol) as well as reference data-types.
+    An object, is a reference data type which reference or pointer points to the location in memory where the object is stored.
+
+    A JavaScript object has properties associated with it. The properties of an object define the characteristics of the object. We access the properties of an object with a simple dot-notation:
+
+    Syntax : objectName.propertyName
+
+    Like all JavaScript variables, both the object name and property name are case sensitive. We can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+
+    var myCar = new Object();
+    myCar.make = 'Ford';
+    myCar.model = 'Mustang';
+    myCar.year = 1969;
+
+    Properties of JavaScript objects can also be accessed or set using a bracket notation . Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it. So, for example, we could access the properties of the myCar object as follows:
+
+    myCar['make'] = 'Ford';
+    myCar['model'] = 'Mustang';
+    myCar['year'] = 1969;
+
+
+3. codekata practice  -  Continue
+
+4. Read about IP address, port, HTTP methods, MAC address
+
+    IP address - An Internet Protocol (IP) address is a unique numerical identifier for every device or network that connects to the internet. Typically assigned by an internet service provider (ISP), an IP address is an online device address used for communicating across the internet.
+
+    port - In computer networking, a port or port number is a number assigned to uniquely identify a connection endpoint and to direct data to a specific service. A port in networking is a software-defined number associated to a network protocol that receives or transmits communication for a specific service.
+

@@ -1,0 +1,71 @@
+Document Object - 
+	- The Document Object represents a webpage structure that is inserted in the DOM tree hierarchy and when compiled the content gets displayed on the webpage. By getting access to the document object, the users can access the HTML webpage content along with the elements by which the webpage is built. 
+
+	- When an HTML document is loaded into a web browser, it becomes a document object.
+	- The document object is the root node of the HTML document and the "owner" of all other nodes :( element nodes, text nodes, attribute nodes, and comment nodes).
+	- The document object provides properties and methods to access all node objects, from within JavaScript.
+	- The document is a part of the Window object and can be accessed as window.document.
+
+Properties and Methods of Document Object:
+
+Methods					Description
+------------------------------------------------
+alert()				Displays an alert box with a message and an OK button
+blur()				Removes focus from the current window
+clearInterval()		Clears a timer set with setInterval()
+clearTimeout()		Clears a timer set with setTimeout()
+close()				Closes the current window
+confirm()			Displays a dialog box with a message and an OK and a Cancel button
+createPopup()		Creates a pop-up window
+focus()				Sets focus to the current window
+moveBy()			Moves a window relative to its current position
+moveTo()			Moves a window to the specified position
+open()				Opens a new browser window
+print()				Prints the content of the current window
+prompt()			Displays a dialog box that prompts the visitor for input
+resizeBy()			Resizes the window by the specified pixels
+resizeTo()			Resizes the window to the specified width and height
+scroll()			Deprecated. This method has been replaced by the scrollTo() method.
+scrollBy()			Scrolls the document by the specified number of pixels
+scrollTo()			Scrolls the document to the specified coordinates
+setInterval()		Calls a function or evaluates an expression at specified intervals (in milliseconds)
+setTimeout()		Calls a function or evaluates an expression after a specified number of milliseconds
+stop()				Stops the window from loading
+
+
+
+Window Object - 
+	- The Window Object is at the head position of the DOM hierarchy showing a window browser or frame.
+	- The Window object is the top level object in JavaScript, and contains in itself several other objects, such as "document", "history" etc.
+	- The window object represents an open window in a browser.
+	- If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+
+Properties of Window object:
+
+Property			Description
+closed			Returns a Boolean value indicating whether a window has been closed or not
+defaultStatus	Sets or returns the default text in the statusbar of a window
+document		Returns the Document object for the window
+frameElement	Returns the, <iframe> element in which the current window is inserted
+frames			Returns all,<iframe> elements in the current window
+history			Returns the History object for the window
+innerHeight		Returns the inner height of a window's content area
+innerWidth		Returns the inner width of a window's content area
+length			Returns the number of, <iframe> elements in the current window
+location		Returns the Location object for the window (See Location object)
+name			Sets or returns the name of a window
+navigator		Returns the Navigator object for the window (See Navigator object)
+opener			Returns a reference to the window that created the window
+outerHeight		Returns the outer height of a window, including toolbars/scrollbars
+outerWidth		Returns the outer width of a window, including toolbars/scrollbars
+pageXOffset		Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window
+pageYOffset		Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window
+parent			Returns the parent window of the current window
+screen			Returns the Screen object for the window (See Screen object)
+screenLeft		Returns the horizontal coordinate of the window relative to the screen
+screenTop		Returns the vertical coordinate of the window relative to the screen
+screenX			Returns the horizontal coordinate of the window relative to the screen
+screenY			Returns the vertical coordinate of the window relative to the screen
+self			Returns the current window
+status			Sets or returns the text in the statusbar of a window
+top				Returns the topmost browser window
