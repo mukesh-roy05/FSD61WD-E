@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(205, 219, 219);
+    border: 1px solid rgb(48, 44, 44);
+}
+input[type="text"]{
+    padding: 10px 20px; 
+    /* box-sizing: border-box; */
+     margin-left: 10px; 
+     
+}
+
+label{
+    display: block;
+    padding: 10px;
+    text-align: bottom;
+    font-weight: bold;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+span label{
+    margin-left: 20px;
+    padding-top: 2px;
+    clear: both;
+    font-size: 75%;
+    line-height: 150%;
+    color: black;
+    display: flex;
+    font-weight: normal;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0%;
+}
+.name::after {
+content: ' *';
+color: red;
+}
+
+form li span {
+margin: 0 0.3em 0 0;
+padding: 0;
+float: left;
+}
+
+.emailbl {
+width: auto;
+position: relative ;
+clear: both;
+
+}
+
+/* Your Experpeience  */
+#reset-all {
+all: unset;
+}
+.exp{
+clear: both;
+display: flex;
+padding-left: 10px;
+}
+.explbl{
+font-size: small;
+font-weight: normal;
+}
+
+.rating {
+unicode-bidi: bidi-override;
+direction: rtl;
+font-size: 30px;
+margin-left: 10px;
+}
+
+.rating > span {
+display: inline-block;
+position: relative;
+width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+content: '\2605'; /* Unicode character for a filled star */
+position: absolute;
+color: gold;
+}
+
+
+
+/* How satisfied are you ? */
+
+sat-cap{
+/* display: block; */
+text-align: left;
+font-size: 95%;
+list-style: 135%;
+padding: 5px 0 0.5em 0;
+}
+thead td{
+font-size: 85%;
+padding: 10px 6px;
+background-color: aliceblue;
+}
+thead th{
+background-color: aliceblue;
+margin-left: 10px;
+}
+table label{
+font-weight: normal;
+}
+table input{
+
+padding: 0;
+margin: 2px 0;
+}
+table td{
+text-align: center;
+}
+table input[type="radio"]{
+cursor: default;
+box-sizing: border-box;
+background-color: initial;
+margin: 3px 3px 0px 5px;
+}
+
+textarea{
+margin-left: 10px;
+}
+button{
+margin-left: 10px;
+padding: 6px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <ul>
+            <li >
+                <label class="name" id="title">Name</label>
+                <span>
+                    <input type="text" class="name-text"  placeholder="Enter First Name" required/>
+                    <label for="name-text">Fname</label>
+                </span>
+                <span>
+                    <input type="text" class="lname-text"  placeholder="Enter Last Name" required/>
+                    <label for="lname-text">Lname</label>
+                </span>
+            </li>
+            <li>
+                <label class="emailbl name"> Email</label>
+                <div >
+                    <input type="text" class="email-text"  placeholder="Enter Email" required/>
+                </div>
+                
+            </li>
+
+           <li >
+                <label class="emailbl name"> Your Experience </label>
+               
+                <div class="rating">
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                  </div>
+                <label class="emailbl" style="font-size: small; font-weight: normal;">Overall how would you rate your experience with us</label>
+
+            </li>   
+        </ul>
+        <table cellspacing="0">
+            <label class="emailbl name"> How satisfied are you with</label>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <td>Very Unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>satisfied</td>
+                    <td>Very satisfied</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><label>Purchase</label> </th>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                </tr>
+                <tr>
+                    <th><label>Service</label> </th>
+                    <td><input type="radio" id="purc" name="satis-r1"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r1"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r1"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r1"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r"><label for="purc"></label></td>
+                </tr>
+                <tr>
+                    <th><label>Company Overall</label> </th>
+                    <td><input type="radio" id="purc" name="satis-r2"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r2"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r2"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r2"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r2"><label for="purc"></label></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <table cellspacing="0" border="0">
+            <label class="emailbl name"> How likely are you too</label>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <td>Very Unlikely</td>
+                    <td>Unlikely</td>
+                    <td>Neutral</td>
+                    <td>Likely</td>
+                    <td>Very Likely</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><label>Buy from us again</label> </th>
+                    <td><input type="radio" id="purc" name="satis-r3"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r3"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r3"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r3"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r3"><label for="purc"></label></td>
+                </tr>
+                <tr>
+                    <th><label>Recommend our product to others </label> </th>
+                    <td><input type="radio" id="purc" name="satis-r4"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r4"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r4"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r4"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r4"><label for="purc"></label></td>
+                </tr>
+                <tr>
+                    <th><label>Recommend our company to others</label> </th>
+                    <td><input type="radio" id="purc" name="satis-r5"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r5"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r5"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r5"><label for="purc"></label></td>
+                    <td><input type="radio" id="purc" name="satis-r5"><label for="purc"></label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <label for=""> Additional Comments or Suggestions</label>
+            <textarea name="comment-box" id="comment-box" cols="50" rows="10">
+
+            </textarea>
+        </div>
+    <button> Submit</button>
+    </form>
+   
+</body>
+</html>
